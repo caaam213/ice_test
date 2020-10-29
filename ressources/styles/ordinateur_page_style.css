@@ -1,0 +1,169 @@
+@font-face 
+{
+    font-family: "Lato regular";
+    src: url("../typo/Lato-Regular.ttf") format("ttf");
+}
+
+@font-face 
+{
+    font-family: "Lato light";
+    src: url("../typo/Lato-Light.ttf") format("ttf");
+}
+
+@font-face 
+{
+    font-family: "Lato bold";
+    src: url("../typo/Lato-Light.ttf") format("ttf");
+}
+
+@font-face 
+{
+    font-family: "Lato black";
+    src: url("../typo/Lato-Black.ttf") format("ttf");
+}
+
+body
+{
+    font-family: "Lato Regular",Arial !important;
+}
+.b-right
+{
+    border-right: 1px solid rgb(232,175,32);
+    height: 30px;
+}
+
+.navbar { 
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.collapse {
+    border-top: 1px solid rgb(232,175,32);
+}
+
+#espaceTitre
+{
+    font-family: "Lato light",Arial;
+    font-size:25px;
+}
+
+.nav-link
+{
+    color:white !important;
+}
+
+.f-lato-black
+{
+    font-family: "Lato Black",Arial;
+}
+
+.fs-grandir
+{
+    font-size:20px;
+}
+
+.statistiquesNombre
+{
+    font-size:30px;
+    border-right:1px solid rgb(232,175,32);
+    color:rgb(232,175,32);
+    font-family: "Lato light";
+}
+
+#personneText
+{
+    visibility:hidden;
+    font-size:18px;
+    color:white;
+}
+
+#personneTextDansNav
+{
+    visibility:visible;
+    font-size:18px;
+    color:white;
+    
+}
+
+#personneTextDansNav a:hover
+{
+    text-decoration: none !important;
+}
+.section-orange
+{
+    color:rgb(232,175,32);
+}
+
+.color-blue
+{
+    color:rgb(40,172,222);
+
+}
+
+.nav-link:hover
+{
+    text-decoration: underline;
+}
+
+.footer-liens
+{
+    border-right:1px solid gray;
+    height: 30px;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) { 
+    body
+    {
+        font-size: 13px !important;
+    }
+
+    .footer-texte
+    {
+        font-size:13px;
+    }
+
+    .footer-liens
+    {
+        border-right:1px solid gray;
+        height: 20px;
+        text-decoration: underline;
+    }
+
+    td
+    {
+        font-size: 13px;
+    }
+
+    
+} 
+
+@media screen and (max-width: 992px) { 
+    body
+    {
+        font-size: 14px !important;
+    }
+    .collapse
+    {
+        border-top: none !important;
+        
+    }
+    .b-right
+    {
+        border-right: none !important;
+    }
+
+    #personneText
+    {
+        visibility:visible;
+        font-size:18px;
+        color:white;
+    }
+
+    #personneTextDansNav
+    {
+        visibility:hidden;
+        font-size:18px;
+        color:white;
+    }
+} 

@@ -1,0 +1,24 @@
+1. Consignes de découpe : 
+
+1.1 Contrainte
+La découpe devra se baser sur le framewok Bootstrap
+
+1.2 Le colonnage : 
+
+12 colones
+
+1.3 Fonctionnalités particulières : 
+Au clic sur un client de la liste, une colorbox s'affichera (le contenu est dans le PSD). 
+
+
+2. Rendu du travail : 
+
+Fournir les sources et la page html à l'adresse jh@ice-dev.com et cn@ice-dev.com en indiquant le temps total passé sur le test.
+Documentez pour qu'une compilation des fichiers sass et js puisse être effectuée de notre côté.
+
+
+3. Conseils d'organisation :
+
+Commencez par faire votre structure html logique.
+Utilisez des fonds de couleurs primaires pour bien repérer le comportement sur les différents supports.
+Nous préférons largement voir une page avec des blocs qui se comportent de manière fluide, que des icones réglés au pixel dans une structure qui ne serait pas logique.

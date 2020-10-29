@@ -1,0 +1,225 @@
+<!--Cette page est chargée lorsque l'utilisateur utilise son ordinateur-->
+<!--Statistiques-->
+<div class="row justify-content-around">
+    <div class="col-lg-4 ml-lg-3">
+        <div class="row justify-content-around p-1 shadow" style="background-color: rgb(237,239,243);">
+            <!--Recherche par dates-->
+            <div class="col-12 row justify-content-around">
+                <p class="mt-1">Du</p>
+                <div class="d-flex">
+                    <img src="ressources/SVG/Forme6orange.svg" class="mb-2" alt="">
+                    <input class="form-control form-control-sm ml-2" type="text">
+                </div>
+            </div>
+
+            <div class="col-12 row justify-content-around">
+                <p class="mt-1">Au</p>
+                <div class="d-flex">
+                    <img src="ressources/SVG/Forme6orange.svg" class="mb-2" alt="">
+                    <input class="form-control form-control-sm ml-2" type="text">
+                </div>
+            </div>
+            
+            <!--Recherche par nom du client-->
+            <div class="col-9 justify-content-around">
+                <input class="form-control form-control-sm ml-2" placeholder="Nom du client" type="text">
+            </div>
+
+            <!--Bouton validation de la recherche-->
+            <div class="col-10 row justify-content-around mt-2">
+                <button class="btn col-3 btn-light mx-auto" style="color:rgb(232,175,32);border:3px solid rgb(193,193,193);">Voir</button>
+            </div>
+            
+                
+        </div>
+
+        <!--Résultat de la recherche-->
+        <div class="row border rounded-bottom">
+            <div class="row col-12 mx-auto mt-2 px-1">
+                <p class="statistiquesNombre col-xl-2 col-lg-3 ml-5">47</p>
+
+                <p class="col-xl-5 col-lg-6">Nombre de clients inscrits</p>
+
+            </div> 
+
+            <div class="row col-12 mx-auto mt-2 px-1">
+                <p class="statistiquesNombre col-xl-2 col-lg-3 ml-5">13</p>
+
+                <p class="col-xl-5 col-lg-6">Rendez-vous effectués</p>
+
+            </div>
+
+            <div class="row col-12 mx-auto mt-2 px-1">
+                <p class="statistiquesNombre col-xl-2 col-lg-3 ml-5">7</p>
+
+                <p class="col-xl-5 col-lg-6">Rendez-vous sur internet</p>
+
+            </div>
+
+            <div class="row col-12 mx-auto mt-2 px-1">
+                <p class="statistiquesNombre col-xl-2 col-lg-3 ml-5">0.5</p>
+
+                <p class="col-xl-5 col-lg-6">Rendez-vous sur internet</p>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+    <!--Patients-->
+    <div class="col-lg-7 ml-lg-2 rounded-bottom" id="app">
+        <!--Recherche-->
+        <div class="row justify-content-between p-2 shadow" style="background-color: rgb(237,239,243);">
+            <div class="col-xl-8 col-lg-6 row">
+                <img class="col-2 mt-2" src="ressources/SVG/loupe.svg" height="20" alt="">
+                <input class="form-control form-control-sm col-8 mt-1" type="text" placeholder="Nom du patient">
+            </div>
+            <div class="col-2 col-lg-4 row">
+                <button class="btn btn-sm btn-primary rounded col-8 p-2" style="background-color:rgb(232,175,32);border:1px solid rgb(232,175,32);">OK</button>
+            </div>
+        </div>
+        
+        <table class="table border rounded-bottom">
+            <tbody>
+                <tr>
+                    <td><img class="" src="ressources/SVG/Forme7.svg" alt=""> </td>
+                    <td>Julien Deschamps</td>
+                    <td>12/12/1975</td>
+                    <td>45 ans</td>
+                    <td>
+                        <img style="visibility:hidden;" class="btn btn-link ml-5" data-toggle="modal" data-target="#i0" 
+                            src="ressources/SVG/Forme22.svg" alt="">
+                    </td>
+                    <td><img class="" style="visibility:hidden;" src="ressources/SVG/Forme21.svg" alt=""></td>
+                </tr>
+
+                <tr>
+                    <td><img class="" src="ressources/SVG/Forme9copie.svg" alt=""> </td>
+                    <td>Sophie Deschamps</td>
+                    <td>12/12/2002</td>
+                    <td>17 ans</td>
+                    <td>
+                        <img style="visibility:hidden;" class="btn btn-link ml-5" data-toggle="modal" data-target="#i1" 
+                            src="ressources/SVG/Forme22.svg" alt="">
+                    </td>
+                    <td><img class="" style="visibility:hidden;" src="ressources/SVG/Forme21.svg" alt=""></td>
+                </tr>
+
+    
+            </tbody>
+        </table>
+
+        <!--Modales pour chaque personne-->
+        <div>
+            <div class="modal fade" id="i0"  tabindex="-1" aria-labelledby="i0" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header" style="background-color: rgb(232,175,32);">
+                            <img class="mt-1" src="ressources/SVG/Forme7blanc.svg" alt="">
+                            <h5 class="modal-title f-lato-black text-white ml-4" style="text-transform: uppercase;">JULIEN DESCHAMPS</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <img src="ressources/SVG/ico-close.svg" alt="">
+                            </button>
+                        </div>
+                        <div class="modal-body row">
+                            <div class="row justify-content-around col-12 ml-4">
+                                <div class="col">
+                                    <p class="section-orange">Sexe : </p>
+                                    <p class="font-weight-bold">Masculin</p>
+                                </div>
+
+                                <div class="col">
+                                    <p class="section-orange">Tel.fixe : </p>
+                                    <p class="font-weight-bold">06.06.06.06.06</p>
+                                </div>
+                            </div>
+
+                            <div class="row justify-content-around col-12 ml-4">
+                                <div class="col">
+                                    <p class="section-orange">Date de naissance : </p>
+                                    <p class="font-weight-bold">19/10/1975</p>
+                                </div>
+
+                                <div class="col">
+                                    <p class="section-orange">Tel.mobile : </p>
+                                    <p class="font-weight-bold">06.06.06.06.06</p>
+                                </div>
+                            </div>
+
+                            <div class="row justify-content-around col-12 ml-4">
+                                <div class="col">
+                                    <p class="section-orange">Adresse : </p>
+                                    <p class="font-weight-bold">1 avenue de alserres, 05000 GAP</p>
+                                </div>
+
+                                <div class="col">
+                                    <p class="section-orange">Email : </p>
+                                    <p class="font-weight-bold">julieosteo@gmail.com</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        
+            <div class="modal fade" id="i1"  tabindex="-1" aria-labelledby="i1" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header" style="background-color: rgb(232,175,32);">
+                            <img class="mt-1" src="ressources/SVG/Forme9copieblanc.svg" alt="">
+                            <h5 class="modal-title f-lato-black text-white ml-4" style="text-transform: uppercase;">SOPHIE DESCHAMPS</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <img src="ressources/SVG/ico-close.svg" alt="">
+                            </button>
+                        </div>
+                        <div class="modal-body row">
+                            <div class="row justify-content-around col-12 ml-4">
+                                <div class="col">
+                                    <p class="section-orange">Sexe : </p>
+                                    <p class="font-weight-bold">Feminin</p>
+                                </div>
+
+                                <div class="col">
+                                    <p class="section-orange">Tel.fixe : </p>
+                                    <p class="font-weight-bold">06.06.06.06.06</p>
+                                </div>
+                            </div>
+
+                            <div class="row justify-content-around col-12 ml-4">
+                                <div class="col">
+                                    <p class="section-orange">Date de naissance : </p>
+                                    <p class="font-weight-bold">19/10/2002</p>
+                                </div>
+
+                                <div class="col">
+                                    <p class="section-orange">Tel.mobile : </p>
+                                    <p class="font-weight-bold">06.06.06.06.06</p>
+                                </div>
+                            </div>
+
+                            <div class="row justify-content-around col-12 ml-4">
+                                <div class="col">
+                                    <p class="section-orange">Adresse : </p>
+                                    <p class="font-weight-bold">1 avenue de alserres, 05000 GAP</p>
+                                </div>
+
+                                <div class="col">
+                                    <p class="section-orange">Email : </p>
+                                    <p class="font-weight-bold">sophieosteo@gmail.com</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="ressources/scripts/afficherImage.js"></script>

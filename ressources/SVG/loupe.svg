@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="18.938" height="20" viewBox="0 0 18.938 20">
+  <defs>
+    <style>
+      .cls-1 {
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="loupe" class="cls-1" d="M905.813,376.162l-5.928-6.484a7.453,7.453,0,1,0-.735.677l5.928,6.483a0.5,0.5,0,1,0,.736-0.675h0ZM887.991,364.5a6.483,6.483,0,1,1,6.483,6.5A6.5,6.5,0,0,1,887.991,364.5Z" transform="translate(-887 -357)"/>
+</svg>

@@ -1,0 +1,157 @@
+<!--Cette page sera chargée par défaut lorsque l'utilisateur utilisera son téléphone et qu'il clique sur la div "Patirnyd"-->
+<!--Patients-->
+<div class="col-12 rounded-bottom" id="app">
+    <!--Recherche-->
+    <div class="row justify-content-between p-2 shadow" style="background-color: rgb(237,239,243);">
+        <div class="col-8 row">
+            <img class="col-2 mt-2" src="ressources/SVG/loupe.svg" height="20" alt="">
+            <input class="form-control form-control-sm col-8 mt-1" type="text" placeholder="Nom du patient">
+        </div>
+        <div class="col-2 row">
+            <button class="btn btn-sm btn-primary rounded col-12 p-2" style="background-color:rgb(232,175,32);border:1px solid rgb(232,175,32);">OK</button>
+        </div>
+    </div>
+
+   
+        
+    <!--Tableau des résultats de la recherche-->
+    <table class="table rounded-bottom">
+        <tbody>
+            <tr class="">
+                <td><img class="" src="ressources/SVG/Forme7.svg" alt=""> </td>
+                <td>Julien Deschamps</td>
+                <td>12/12/1975</td>
+                <td>45 ans</td>
+                <td>
+                    <img style="visibility:hidden;" class="btn btn-link ml-5" data-toggle="modal" data-target="#i0" 
+                        src="ressources/SVG/Forme22.svg" alt="">
+                </td>
+                <td><img class="" style="visibility:hidden;" src="ressources/SVG/Forme21.svg" alt=""></td>
+
+                
+            </tr>
+
+            <tr>
+                <td><img class="" src="ressources/SVG/Forme9copie.svg" alt=""> </td>
+                <td>Sophie Deschamps</td>
+                <td>12/12/2002</td>
+                <td>17 ans</td>
+                <td>
+                    <img style="visibility:hidden;" class="btn btn-link ml-5" data-toggle="modal" data-target="#i1" 
+                        src="ressources/SVG/Forme22.svg" alt="">
+                </td>
+                <td><img class="" style="visibility:hidden;" src="ressources/SVG/Forme21.svg" alt=""></td>
+            </tr>
+                
+        </tbody>
+    </table>
+
+    <!--Modales pour chaque personne-->
+
+    <div class="modal fade" id="i0"  tabindex="-1" aria-labelledby="i0" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header" style="background-color: rgb(232,175,32);">
+                    <img class="mt-1" src="ressources/SVG/Forme7blanc.svg" alt="">
+                    <h5 class="modal-title f-lato-black text-white ml-4" style="text-transform: uppercase;">JULIEN DESCHAMPS</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <img src="ressources/SVG/ico-close.svg" alt="">
+                    </button>
+                </div>
+                <div class="modal-body row">
+                    <div class="row justify-content-around col-12 ml-4">
+                        <div class="col">
+                            <p class="section-orange">Sexe : </p>
+                            <p class="font-weight-bold">Masculin</p>
+                        </div>
+
+                        <div class="col">
+                            <p class="section-orange">Tel.fixe : </p>
+                            <p class="font-weight-bold">06.06.06.06.06</p>
+                        </div>
+                    </div>
+
+                    <div class="row justify-content-around col-12 ml-4">
+                        <div class="col">
+                            <p class="section-orange">Date de naissance : </p>
+                            <p class="font-weight-bold">19/10/1975</p>
+                        </div>
+
+                        <div class="col">
+                            <p class="section-orange">Tel.mobile : </p>
+                            <p class="font-weight-bold">06.06.06.06.06</p>
+                        </div>
+                    </div>
+
+                    <div class="row justify-content-around col-12 ml-4">
+                        <div class="col">
+                            <p class="section-orange">Adresse : </p>
+                            <p class="font-weight-bold">1 avenue de alserres, 05000 GAP</p>
+                        </div>
+
+                        <div class="col">
+                            <p class="section-orange">Email : </p>
+                            <p class="font-weight-bold">julieosteo@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+                    
+            </div>
+        </div>
+
+    </div>
+
+    
+    <div class="modal fade" id="i1"  tabindex="-1" aria-labelledby="i1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header" style="background-color: rgb(232,175,32);">
+                    <img class="mt-1" src="ressources/SVG/Forme9copieblanc.svg" alt="">
+                    <h5 class="modal-title f-lato-black text-white ml-4" style="text-transform: uppercase;">SOPHIE DESCHAMPS</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <img src="ressources/SVG/ico-close.svg" alt="">
+                    </button>
+                </div>
+                <div class="modal-body row">
+                    <div class="row justify-content-around col-12 ml-4">
+                        <div class="col">
+                            <p class="section-orange">Sexe : </p>
+                            <p class="font-weight-bold">Feminin</p>
+                        </div>
+
+                        <div class="col">
+                            <p class="section-orange">Tel.fixe : </p>
+                            <p class="font-weight-bold">06.06.06.06.06</p>
+                        </div>
+                    </div>
+
+                    <div class="row justify-content-around col-12 ml-4">
+                        <div class="col">
+                            <p class="section-orange">Date de naissance : </p>
+                            <p class="font-weight-bold">19/10/2002</p>
+                        </div>
+
+                        <div class="col">
+                            <p class="section-orange">Tel.mobile : </p>
+                            <p class="font-weight-bold">06.06.06.06.06</p>
+                        </div>
+                    </div>
+
+                    <div class="row justify-content-around col-12 ml-4">
+                        <div class="col">
+                            <p class="section-orange">Adresse : </p>
+                            <p class="font-weight-bold">1 avenue de alserres, 05000 GAP</p>
+                        </div>
+
+                        <div class="col">
+                            <p class="section-orange">Email : </p>
+                            <p class="font-weight-bold">sophieosteo@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+                    
+            </div>
+        </div>
+    </div>
+</div>
+<script src="ressources/scripts/afficherImage.js"></script>     
