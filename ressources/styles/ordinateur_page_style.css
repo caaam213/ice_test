@@ -22,9 +22,16 @@
     src: url("../typo/Lato-Black.ttf") format("ttf");
 }
 
+/*Lato Black n'étant pas supporté par Firefox et d'autres navigateurs, il faut charger Helvetica*/
+@font-face
+{
+    font-family: "HelveticaN";
+    src: url("../typo/Helvetica.otf") format("otf");
+}
+
 body
 {
-    font-family: "Lato Regular",Arial !important;
+    font-family: "Lato Regular","HelveticaN",Arial !important;
 }
 .b-right
 {
@@ -43,7 +50,7 @@ body
 
 #espaceTitre
 {
-    font-family: "Lato light",Arial;
+    font-family: "Lato light","Helvetica",Arial;
     font-size:25px;
 }
 
@@ -54,7 +61,7 @@ body
 
 .f-lato-black
 {
-    font-family: "Lato Black",Arial;
+    font-family: "Lato Black","Helvetica",Arial;
 }
 
 .fs-grandir
@@ -67,7 +74,7 @@ body
     font-size:30px;
     border-right:1px solid rgb(232,175,32);
     color:rgb(232,175,32);
-    font-family: "Lato light";
+    font-family: "Lato light","Helvetica",Arial;
 }
 
 #personneText
